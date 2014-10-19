@@ -87,9 +87,6 @@ int main(int argc, char *argv[])
     int i;
     unsigned char buff[188];
 
-    char input_fname[256] ="";
-    char output_name[256] ="tcp.ts";
-
     memset(buff, 0, 188);
 
     if(0 != phase_parameter(argc, argv))
@@ -99,6 +96,7 @@ int main(int argc, char *argv[])
 
     rgb_buff = g_tga_buff;
 
+    printf("input_fname:%s !\n", input_fname);
     if((in_fp = fopen(input_fname, "rb")) == NULL)
     {
         printf("\n open %s failed!\n", input_fname);
@@ -180,7 +178,7 @@ static int phase_parameter(int argc, char *argv[])
 
     if(split_num <= 0)
     {
-        printf("Unnormal split number:%s !\n", split_num);
+        printf("Unnormal split number:%d !\n", split_num);
         return -1;
     }
 
