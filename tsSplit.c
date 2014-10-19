@@ -1,16 +1,16 @@
 /*
  * =====================================================================================
  *
- *       Filename:  tsSplit.c
+ *    Filename:  tsSplit.c
  *
  *    Description:  Split ts.
  *
- *        Version:  1.0
- *        Created:  2013-6-25
+ *       Version:  1.0
+ *       Created:  2013-6-25
  *       Revision:  none
  *       Compiler:  gcc
  *
- *         Author:  Li WenYan <suma.lwy@gmail.com>
+ *       Author:  Li WenYan <suma.lwy@gmail.com>
  *
  * =====================================================================================
  */
